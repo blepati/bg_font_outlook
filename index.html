@@ -108,6 +108,7 @@
                 font-style: normal;
                 font-weight: 700;
                 src: local('Nunito Bold'), local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v10/XRXW3I6Li01BKofAjsOUYevI.woff2) format('woff2');
+            }
 
             .container600 {
                 width: 600px;
@@ -127,7 +128,7 @@
         <!--[if mso]>
         <style type=”text/css”>
             .fallback-font {
-                font-family: Arial, sans-serif;
+                font-family: Arial, sans-serif !important;
             }
         </style>
         <![endif]-->
@@ -140,10 +141,32 @@
             <table class="container600" cellpadding="0" cellspacing="0" border="0" width="100%" style="width:calc(100%);max-width:calc(600px);margin: 0 auto; background:#20d1ac;">
                 <tr>
                     <td width="100%" style="text-align: center;">
-                        <table cellpadding="0" cellspacing="0" border="0" width="100%" height="400" style="background:url(img/propsize_bg.png); background-position:center;background-repeat: no-repeat;">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
                             <tr>
-                                <td width="100%" style="text-align: center;padding-top: 10px;">
-                                    <h1 style="color: #dedede; font-family:'Nunito', Arial, sans-serif;">Example header with cacti background</h1>
+                                <td background="https://github.com/blepati/bg_font_outlook/blob/master/img/propsize_bg.png?raw=true" bgcolor="#bfd12e" width="100%" height="312" valign="top"style="background-position:center;background-repeat: no-repeat;">
+                                    <!--[if gte mso 9]>
+                                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:312px;">
+                                    <v:fill type="tile" src="https://github.com/blepati/bg_font_outlook/blob/master/img/propsize_bg.png?raw=true" color="#bfd12e" />
+                                    <v:textbox inset="0,0,0,0">
+                                    <![endif]-->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                        <tr>
+                                            <td width="100%" style=" font-family:'Nunito', Arial, sans-serif; text-align:center; padding: 18px 20px 20px;">
+                                                <h1 class="fallback-font" style="color: #dedede; font-size: 28px; line-height: 32px;">Example header with cacti background</h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!--[if gte mso 9]>
+                                    </v:textbox>
+                                    </v:rect>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td width="100%" style=" font-family:'Nunito', Arial, sans-serif; text-align:center; padding: 18px 20px 16px;">
+                                    <h1 class="fallback-font" style="color: #dedede; font-size: 28px; line-height: 32px;">check text without background</h1>
                                 </td>
                             </tr>
                         </table>
